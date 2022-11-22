@@ -31,3 +31,5 @@ class Conta:
     
     def set_limite(self, limite):
         self.__limite = limite
+
+conta = Conta(123, "Jefferson", 50.0, 1000.0)
