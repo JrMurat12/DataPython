@@ -1,4 +1,5 @@
 from datetime import date
+import pytest
 
 class Funcionario:
     def __init__(self, nome, data_nascimento, salario):
